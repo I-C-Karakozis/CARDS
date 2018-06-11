@@ -14,7 +14,7 @@
 
   <body data-spy="scroll" data-target="#navbar">
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container content">
+      <div class="container">
         <div class="navbar-header">
         	<!-- <img src="images/princeton_logo.png" height="42" width="42"> -->
           	<a class="navbar-brand">CARDS Dataset</a>
@@ -25,13 +25,13 @@
     </nav>
     
     <div id="home" class="container jumbotron topjumbo">  
-    	<div class="row">
+    	  <div class="row">
            <div class="col-sm-12 col-md-12"><b>Contributors</b></p>
         </div>  
         <div class="row">
-           <div class="col-sm-4 col-md-4">Ioannis Christos Karakozis</div>   
-           <div class="col-sm-4 col-md-4">Adam Finkelstein</div>
-           <div class="col-sm-4 col-md-4">Greg Humphreys</div>
+           <div class="col-sm-4 col-md-4"><a href="https://www.linkedin.com/in/yannis-karakozis-746488116/" target="_blank">Ioannis Christos Karakozis</a></div>   
+           <div class="col-sm-4 col-md-4"><a href="https://www.cs.princeton.edu/~af/" target="_blank">Adam Finkelstein</a></div>
+           <div class="col-sm-4 col-md-4"><a href="https://www.linkedin.com/in/greghumphreys/" target="_blank">Greg Humphreys</a></div>
         </div>
         <div class="row">
            <div class="col-sm-4 col-md-4">Princeton University</div>   
@@ -40,12 +40,32 @@
         </div>
         <br>
         <div class="row">
-           <div class="col-sm-4 col-md-4">Download Single-Card</div>   
-           <div class="col-sm-4 col-md-4">Download Simple-Bridge</div>
-           <div class="col-sm-4 col-md-4">Download Complex-Bridge</div>
+           <div class="col-sm-12 col-md-12"><b>Annotated Card Detection Datasets</b></p>
+        </div>  
+        <div class="row">
+           <div class="col-sm-4 col-md-4"><a href="data/single_card.zip">Download Single-Card</a></div>
+           <div class="col-sm-4 col-md-4"><a href="data/simple_bridge.zip">Download Simple-Bridge</a></div>
+           <div class="col-sm-4 col-md-4"><a href="data/complex_bridge.zip">Download Complex-Bridge</a></div>
+        </div>
+        <br>
+        <div class="row">
+           <div class="col-sm-12 col-md-12"><b>Annotated Card Classification Datasets</b></p>
+        </div>
+        <div class="row">
+           <div class="col-sm-4 col-md-4"><a href="data/cls_test_single_card.zip">Download Baseline Alg Test Set</a></div>   
+           <div class="col-sm-4 col-md-4"><a href="data/cls_train_single_card_simple_bridge.zip">Download Deep Learning Train/Val Set</a></div>
+           <div class="col-sm-4 col-md-4"><a href="data/cls_test_complex_bridge.zip">Download Deep Learning Test Set</a></div>
+        </div>
+        <br>
+        <div class="row">
+           <div class="col-sm-12 col-md-12"><b>Bounding Box Annotator</b></p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6"><a href="docs/bb_annot_code.zip">Code</a></div>   
+          <div class="col-sm-6 col-md-6"><a href="docs/dataset_annotator_scales.txt", target="_blank">Scale Factor for Detection Image Sets</a></div>
         </div>
 
-        <h2><a target ='_blank' href="https://github.com/I-C-Karakozis/bridge_tracker"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a></h2>
+        <h2><a target ='_blank' href="https://github.com/I-C-Karakozis/bridge_tracker"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs/report.pdf" target ='_blank'><i class="fa fa-book fa-2x" aria-hidden="true"></i></a></h2>
     </div>
 
   <script src="ponglib/jquery-latest.min.js" type="text/javascript"></script>

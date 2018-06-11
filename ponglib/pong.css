@@ -23,7 +23,7 @@ body {
 }
 .navbar-header {
     float: left;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     width: 100%;
 }
@@ -87,7 +87,7 @@ body {
 
 .space{margin-top: 60px; margin-bottom: 60px;}
 
-.container .text-muted {margin: 40px 0; color: #fff;}
+.container .text-muted {margin: 20px 0; color: #fff;}
 
 .footer > .container {padding-right: 15px; padding-left: 15px;}
 
@@ -96,14 +96,8 @@ margin-top: -60px;
 padding-top: 60px;
 }
 
-#contact {
-margin-top: -220px;
-padding-top: 170px;
-}
-
 #home{
 margin-bottom: 0px;
-overflow: hidden;
 }
 
 #playoffs, #north, #south, #events, #roster, #leaderboard, #history{
